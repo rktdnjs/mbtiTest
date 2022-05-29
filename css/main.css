@@ -1,0 +1,27 @@
+#main{
+    background-color:aliceblue;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px; 
+    /* border-radius는 실행결과, 가장자리 부분을 곡선으로 바꿔줌 */
+}
+
+p {
+    font-size: 20px;
+}
+
+.startBtn {
+    padding: 13px 50px;
+    border: 3px solid orange;
+    color: orange;
+    border-radius: 8px;
+}
+
+/* 버튼이 이쁘지 않아서 hover속성 추가 */
+.startBtn:hover,  .startBtn:active {
+    /* 아래 친구는 버튼위에 커서를 갖다대었을 때 버튼의 바탕색이 바뀜 */
+    background-color: orange;
+
+    /* 아래 친구는 버튼위에 커서를 갖다대었을 때 색깔이 바뀜 */
+    color: rgb(255, 255, 255);
+}

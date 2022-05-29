@@ -1,0 +1,15 @@
+/* 따로 import하면 번거로우니까 한꺼번에 호출해서 모아놓음 */
+@import "qna.css";
+@import "main.css";
+@import "result.css";
+@import "animation.css";
+
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.hanna * {
+ font-family: 'Hanna', fantasy;
+}
+
+.baedal {
+    font-family: 'Hanna';
+}
